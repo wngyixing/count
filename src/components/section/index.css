@@ -1,0 +1,55 @@
+.index>.box{
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 8px auto;
+    background: #ccc;
+    border-radius: 5px;
+}
+.index>p{
+    text-align: center;
+}
+.inp{
+    width: 100%;
+    height: 45px;
+     margin-top: 20px;
+    background: blue;
+}
+.insp{
+    width: 100%;
+    height: 45px;
+    background: blue;
+    margin-top: 20px;
+    line-height: 45px;
+    text-align: center;
+    /* display: none; */
+}
+.inp>input{
+    display: block;
+    height: 45px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background:none;
+}
+.titt{
+    margin-top: 40px;
+}
+.titt ul{
+    background: #fff;
+}
+.titt>ul>a>li{
+    line-height: 45px;
+    padding:0 30px; 
+    display: flex;
+    justify-content: space-between;
+}
+.titt>ul>li>span{
+    display: block;
+}
+a{
+    display: block;
+    line-height: 45px;
+    color: #000;
+}

@@ -1,0 +1,25 @@
+.submite{
+
+}
+form{
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+input{
+    border: 0;
+    font-size: 14px;
+    text-indent: 3rem;
+    width: 80%;
+}
+.but{
+    display: flex;
+    padding: 0 25%;
+    margin-top: 20px;
+}
+.Button{
+    width: 60px;
+   margin-right: 20px;
+   height: 45px;
+}

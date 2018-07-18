@@ -1,0 +1,31 @@
+.tit{
+    width: 80%;
+    height: 45px;
+    line-height: 45px;
+    background: #eee;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.box{
+   margin-top: 40px;
+    background: #ccc;
+}
+.box>ul{
+     display: flex;
+     line-height: 45px;
+     text-align: center;
+     background: skyblue;
+}
+.box>ul>li{
+    flex: 1;
+    border-left: 1px solid #ccc;
+}
+ol{
+    display: flex;
+}
+ol>li{
+    flex: 1;
+    text-align: center;
+    line-height: 45px;
+}

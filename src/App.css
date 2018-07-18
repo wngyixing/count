@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body,html,#root,.wrap{
+  width: 100%;
+  height: 100%;
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  height: 45px;
+  background: #ccc;
+}
+.section{
+  flex: 1;
+}
+.footer{
+  height: 45px;
+  line-height: 45px;
+  background: #ccc;
+}
+.footer>ul{
+  display: flex;
+}
+.footer>ul>li{
+  flex: 1;
+  text-align: center;
+}
+.footer>ul>li>a{
+  text-decoration: none;
+  color: #000;
+}
+.footer>ul>li>.active{
+  color: red;
+}
+.submite{
+
+}
+form{
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+input{
+    border: 0;
+    font-size: 14px;
+    text-indent: 3rem;
+    width: 80%;
+}
+.but{
+    display: flex;
+    padding: 0 25%;
+    margin-top: 20px;
+}
+.Button{
+    width: 60px;
+   margin-right: 20px;
+   height: 45px;
+}
+  .index>.box{
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 8px auto;
+    background: #ccc;
+    border-radius: 5px;
+}
+.index>p{
+    text-align: center;
+}
+.inp{
+    width: 100%;
+    height: 45px;
+     margin-top: 20px;
+    background: blue;
+}
+.insp{
+    width: 100%;
+    height: 45px;
+    background: blue;
+    margin-top: 20px;
+    line-height: 45px;
+    text-align: center;
+    /* display: none; */
+}
+.inp>input{
+    display: block;
+    height: 45px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background:none;
+}
+.titt{
+    margin-top: 40px;
+}
+.titt ul{
+    background: #fff;
+}
+.titt>ul>a>li{
+    line-height: 45px;
+    padding:0 30px; 
+    display: flex;
+    justify-content: space-between;
+}
+.titt>ul>li>span{
+    display: block;
+}
+a{
+    display: block;
+    line-height: 45px;
+    color: #000;
+}
+  .tit{
+    width: 80%;
+    height: 45px;
+    line-height: 45px;
+    background: #eee;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.box{
+   margin-top: 40px;
+    background: #ccc;
+}
+.box>ul{
+     display: flex;
+     line-height: 45px;
+     text-align: center;
+     background: skyblue;
+}
+.box>ul>li{
+    flex: 1;
+    border-left: 1px solid #ccc;
+}
+ol{
+    display: flex;
+}
+ol>li{
+    flex: 1;
+    text-align: center;
+    line-height: 45px;
+}
+  .details>p{
+    height: 45px;
+    padding-left: 10px;
+    line-height: 45px;
+    background: #eee;
+}
